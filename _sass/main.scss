@@ -1,0 +1,67 @@
+// Litaspjald ath.
+$palette: (
+  bg:					#ffffff,
+  bg-accent:	#333333,
+  bg-alt:			#bee2f3,
+  fg:					#0B3E7A,
+  fg-accent:	#ffffff,
+  border:			#c9c9c9,
+  accent1:		#f5af60,
+  accent2:		#7ecaf6,
+  accent3:		#7bd0c1,
+  accent4:		#c75b9b,
+  accent5:		#ae85ca,
+  accent6:		#8499e7,
+);
+
+$baseColor: #0B3E7A;
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif; 
+  line-height:1.5; 
+}
+h1,h2,h3,h4,h5,a {
+  color: #0B3E7A;
+}
+a:visited {
+  color: orangered;
+}
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+footer p {
+  text-align: left;
+}
+.asidemenu {
+  list-style-type:none;
+  padding: 0;
+  margin-top:5em;
+}
+.asidemenu li{
+  padding: .5em 0;
+}
+.asidemenu span{
+  color:orangered;
+}
+.asidemenu a {  
+  color: #0B3E7A;
+  text-decoration: none;
+  padding: .5em 1em 0;
+  margin: 0;
+//  background-color: darken($baseColor, 50%);
+}
+.asidemenu a:nth-child{
+  background-color: #ddd;
+}  
+.midja small {
+  padding-right: 2em;
+}
+
+.vinstri img {
+  max-width: 4em;
+  height: auto;
+}

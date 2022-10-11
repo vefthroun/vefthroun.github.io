@@ -1,0 +1,97 @@
+$baseColor: #9ef ;      // 9ef  fc9 cbc #ccdbcc 
+$baseColor2: #7ef;
+// MIX
+@mixin gradient{
+  background-image: linear-gradient(to top, $baseColor, lighten($baseColor, 30%));
+}
+@mixin gradientR{
+  background-image: linear-gradient(to bottom, $baseColor, lighten($baseColor, 30%));
+}
+@mixin transLinks {
+  -webkit-transition: all .5s; /* Safari 3.1 to 6.0 */
+      transition: all .5s;
+} 
+* {
+    box-sizing: border-box; 
+}
+body {   
+  background-color: darken($baseColor, 15%);
+  max-width: 60em;
+  margin: 0 1em;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.6;
+}
+// Nesting & mixin
+header {
+  @include gradient;
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    color: darken($baseColor, 45%);
+    font-weight: normal;
+    margin: .5em;
+    text-align: center;
+    font-size: 3em;
+    line-height: 1;
+  }
+  span {
+    font-style: italic;
+  }
+}
+.current {
+  color: #ffdf97;
+  background-color: darken($baseColor, 20%);
+  padding: .5em 1em; 
+}
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: darken($baseColor, 45%); 
+  a {
+    padding: .5em 1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    @include transLinks;
+    &:hover {
+      background-color: darken($baseColor, 15%);  
+    }
+  }
+}
+main {
+    @include gradientR;
+}
+aside {
+    @include gradient;
+    padding: .5em 1em;
+}
+
+footer {
+    background-color: darken($baseColor, 45%); 
+    color: #fff;
+    text-align:center;
+    padding:0.5em;
+}
+footer p {
+  margin:0.5em;
+}
+h1, h2, h3, h4, a  {
+  color: darken($baseColor, 45%);
+}
+header, article {
+  padding: 0 1em;
+}
+.rose {
+  background: #fc9;
+}
+.midja {
+  padding: 0;
+}
+.flleft {
+  float: left;
+  padding: 0 .2em .1em 0;
+}
+.headmenu {
+  background-color: #fff;
+  z-index: 9999;
+}

@@ -1,0 +1,47 @@
+I"!	<h2 id="http-staðalinn-request--response-">HTTP staðalinn (request / response )</h2>
+
+<ul>
+  <li><strong>Verkefnalýsing er í INNU</strong></li>
+  <li>Öll verkefni áfangans eru unnin í áfangageymslu <em>Github Classroom</em></li>
+</ul>
+
+<p>Grunnatriði í netsamskiptum</p>
+
+<h3 id="http-11">HTTP 1.1</h3>
+
+<ul>
+  <li><a href="https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html">HTTP Basics</a></li>
+  <li><a href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">HTTP Basics 2</a></li>
+  <li><a href="https://httpstatuses.com/">HTTP skilaboð</a></li>
+  <li><a href="https://start.jcolemorrison.com/http-1-2-and-3-in-a-nutshell/">HTTP 1, 2 &amp; 3 stutt lýsing</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Internet_protocol_suite#Key_architectural_principles">Internet protocol suite</a></li>
+</ul>
+
+<h4 id="netkerfi">Netkerfi</h4>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)">OSI Model</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Lists_of_network_protocols">List of network protocols</a></li>
+</ul>
+
+<h3 id="vefforritun-með-python---flask">Vefforritun með Python - Flask</h3>
+
+<ul>
+  <li><a href="vefthroun.html">Uppsetning Flask þróunarsvæðis</a></li>
+  <li><a href="http://pwp.stevecassidy.net/">Python Web Programming</a></li>
+  <li><a href="https://code.visualstudio.com/docs/python/python-tutorial">Getting Started with Python in VS Code</a></li>
+  <li><a href="https://realpython.com/primer-on-python-decorators/">Python Decorators</a></li>
+  <li><a href="https://pip.pypa.io/en/stable/">PIP - tool for installing Python packages</a></li>
+  <li><a href="https://www.youtube.com/watch?v=zPMr0lEMqpo">PIP - video</a></li>
+</ul>
+
+<h3 id="flask">Flask</h3>
+
+<ul>
+  <li><a href="http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/">Flask kynning</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_quick_guide.htm">Quick guide</a></li>
+  <li><a href="http://flask.pocoo.org/">Flask <em>web framework</em></a></li>
+  <li><a href="https://code.visualstudio.com/docs/python/tutorial-flask">Use Flask in Visual Studio Code</a></li>
+  <li><a href="https://www.fullstackpython.com/web-development.html">Fullstack Web Developement</a></li>
+</ul>
+:ET

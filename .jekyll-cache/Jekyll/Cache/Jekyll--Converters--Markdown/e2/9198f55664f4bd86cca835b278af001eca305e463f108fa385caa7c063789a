@@ -1,0 +1,147 @@
+I"e<h3 id="http">HTTP</h3>
+
+<ul>
+  <li><a href="https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html">HTTP Basics</a></li>
+  <li><a href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177">HTTP Basics 2</a></li>
+  <li><a href="https://httpstatuses.com/">HTTP skilaboð</a></li>
+  <li><a href="https://start.jcolemorrison.com/http-1-2-and-3-in-a-nutshell/">HTTP 1, 2 &amp; 3 stutt lýsing</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Internet_protocol_suite#Key_architectural_principles">Internet protocol suite</a></li>
+</ul>
+
+<h4 id="netkerfi">Netkerfi</h4>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)">OSI Model</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Lists_of_network_protocols">List of network protocols</a></li>
+</ul>
+
+<h3 id="vefforitun">Vefforitun</h3>
+<ul>
+  <li><a href="https://zapier.com/learn/apis/chapter-1-introduction-to-apis/">Hvað er vefforrit - app?</a></li>
+</ul>
+
+<h3 id="python">Python</h3>
+
+<ul>
+  <li><a href="http://pwp.stevecassidy.net/">Python Web Programming</a></li>
+  <li><a href="https://code.visualstudio.com/docs/python/python-tutorial">Getting Started with Python in VS Code</a></li>
+  <li><a href="https://docs.python.org/3/tutorial/datastructures.html">Python Data Structures</a></li>
+  <li><a href="https://realpython.com/primer-on-python-decorators/">Python Decorators</a></li>
+  <li><a href="https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior">Unnið með dagsetningar í py</a></li>
+</ul>
+
+<h4 id="pip">PIP</h4>
+<ul>
+  <li><a href="https://pip.pypa.io/en/stable/">PIP - tool for installing Python packages</a></li>
+  <li><a href="https://dzone.com/articles/most-important-quotpipquot-commands-for-a-python-d">PIP - commands</a></li>
+  <li><a href="https://www.youtube.com/watch?v=zPMr0lEMqpo">PIP - video</a></li>
+</ul>
+
+<h3 id="flask">Flask</h3>
+<ul>
+  <li><a href="http://www.compjour.org/lessons/flask-single-page/hello-tiny-flask-app/">Flask kynning</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_quick_guide.htm">Quick guide</a></li>
+  <li><a href="http://flask.pocoo.org/">Flask <em>web framework</em></a></li>
+  <li><a href="https://code.visualstudio.com/docs/python/tutorial-flask">Use Flask in Visual Studio Code</a></li>
+  <li><a href="https://www.fullstackpython.com/web-development.html">Fullstack Web Developement</a></li>
+</ul>
+
+<h3 id="jinja-templates">Jinja Templates</h3>
+
+<ul>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/templates/#base-template">Templates</a></li>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/extensions/">Extensions</a></li>
+</ul>
+
+<h4 id="jinja-filters">Jinja Filters</h4>
+
+<ul>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/templates/#builtin-filters">Builtin Filters</a></li>
+  <li><a href="https://www.webforefront.com/django/usebuiltinjinjafilters.html">Filters</a></li>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/api/#custom-filters">Custom Filters</a></li>
+  <li><a href="https://www.youtube.com/watch?v=H7StWE1ecrU">Video</a></li>
+  <li><a href="https://riptutorial.com/flask/example/4779/format-datetime-in-a-jinja2-template">Datetime</a></li>
+</ul>
+
+<h4 id="working-with-json-data-in-python">Working with Json data in Python</h4>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=9N6a-VLBa2I">Working with Json</a></li>
+  <li><a href="https://codehandbook.org/working-with-json-in-python-flask/">Working with Json - video</a></li>
+  <li><a href="https://simplejson.readthedocs.io/en/latest/">Simple Json</a></li>
+  <li><a href="https://www.youtube.com/watch?v=XeWck2hVZ8c&amp;list=PLfkTJXI2Tk-ddZrPlRq2WJ4sNTKWXLkmG&amp;index=15">w &amp; r JSON video</a></li>
+</ul>
+
+<h4 id="api-application-programming-interface">API (Application Programming Interface)</h4>
+<ul>
+  <li><a href="https://zapier.com/learn/apis/chapter-1-introduction-to-apis/">API kynning</a></li>
+  <li><a href="https://www.skyhook.com/blog/what-is-an-sdk-and-an-api">Hver er munurinn á SDK og API?</a></li>
+</ul>
+
+<h4 id="cookies--sessions">Cookies &amp; Sessions</h4>
+<ul>
+  <li><a href="http://flask.pocoo.org/docs/1.0/quickstart/#sessions">Quickstart #sessions</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_cookies.htm">Tutorialspoint - cookies</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_sessions.htm">Tutorialspoint - Sessions</a></li>
+  <li><a href="https://www.youtube.com/watch?v=T1ZVyY1LWOg">Video - An Introduction to Sessions in Flask</a></li>
+  <li><a href="https://www.youtube.com/watch?v=eBwhBrNbrNI">Video - Login Page in Flask Using Sessions</a></li>
+  <li><a href="https://stackoverflow.com/questions/22463939/demystify-flask-app-secret-key">Demystify Flask app secret key</a></li>
+  <li><a href="https://pythonspot.com/login-authentication-with-flask/">Login Authentication With Flask</a></li>
+</ul>
+
+<h4 id="form-data">Form Data</h4>
+<ul>
+  <li><a href="https://www.rithmschool.com/courses/flask-fundamentals/crud-with-flask">CRUD dæmi</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_sending_form_data_to_template.htm">Sendig form data to template</a></li>
+  <li><a href="https://www.youtube.com/watch?v=KW_ItlO5kR4">Basic form requests</a></li>
+</ul>
+
+<h4 id="wtform">WTForm</h4>
+
+<ul>
+  <li><a href="https://wtforms.readthedocs.io/en/stable/crash_course.html">WTForms Crash Course</a></li>
+  <li><a href="https://www.youtube.com/watch?v=UIJKdCIEXUQ">Forms and User Input</a></li>
+  <li><a href="https://www.youtube.com/watch?v=eu0tg4vgFr4">Form YTB</a></li>
+  <li><a href="http://exploreflask.com/en/latest/forms.html">Explore Flask - form</a></li>
+</ul>
+
+<h4 id="firebase-gagnagrunnur">Firebase gagnagrunnur</h4>
+<ul>
+  <li><a href="https://firebase.google.com/">Firebase</a></li>
+  <li><a href="https://www.youtube.com/watch?v=aojoWWMN1r0&amp;feature=youtu.be&amp;t=1">Leiðbeiningar á ensku</a></li>
+</ul>
+
+<h4 id="mysql-database">MySQL Database</h4>
+
+<ul>
+  <li><a href="https://www.udemy.com/python-flask-beginners/?couponCode=YOUTUBE">Video Flask Mysql</a></li>
+  <li><a href="https://stackoverflow.com/questions/51468059/mysql-package-for-python-3-7">MySQL package for python 3.7</a></li>
+  <li><a href="https://pypi.org/project/PyMySQL/">pypi viðbót PyMySQL 0.9.3</a></li>
+  <li><a href="http://flask.pocoo.org/docs/1.0/patterns/flashing/">Flashing skilaboð</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_sqlite.htm">Flask – SQLite</a></li>
+  <li><a href="http://flask.pocoo.org/docs/1.0/tutorial/database/">Define and Access the Database</a></li>
+  <li><a href="pymysql/">Python MySql kóði</a></li>
+</ul>
+
+<h4 id="heroku">Heroku</h4>
+
+<ul>
+  <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
+  <li><a href="https://github.com/vefthroun/VEF2VF-yfirlit/blob/master/lesefni-pdf/Github2Heroku.pdf">Github geymsla tengd við Heroku</a></li>
+</ul>
+
+<h4 id="liquid-layout">Liquid layout</h4>
+
+<ul>
+  <li><a href="https://shopify.github.io/liquid/">Shopify</a></li>
+</ul>
+
+<h4 id="flask-assets-compiler">Flask Assets Compiler</h4>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?reload=9&amp;v=OpoiQUL6VdQ">Flask-Assets video</a></li>
+  <li><a href="https://flask-assets.readthedocs.io/en/latest/">Read the Docs</a></li>
+  <li><a href="https://webassets.readthedocs.io/en/latest/css_compilers.html#css-compilers">CSS compilers</a></li>
+  <li><a href="https://pypi.org/project/Flask-Assets/">Pypi Flask Assets</a></li>
+</ul>
+:ET

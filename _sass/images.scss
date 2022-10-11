@@ -1,0 +1,20 @@
+/* *  myndvinnsla  * */
+
+/*  myndir <img> alltaf í 100% stærð, munið að vinna og þjappa myndir í myndvinnsluforriti! */
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+    margin:0; /* figure er með sjálsfgefið margin 40px. eins og ul'*/
+}
+figure img {
+  display: block; /* losna við inline "whitespace" */
+  border: 1px solid orange;
+}
+
+.myndabox {
+  display: flex;
+  flex-flow: row wrap; /* skiptir um línu - flex-flow = flex-direction + flex-wrap */
+}

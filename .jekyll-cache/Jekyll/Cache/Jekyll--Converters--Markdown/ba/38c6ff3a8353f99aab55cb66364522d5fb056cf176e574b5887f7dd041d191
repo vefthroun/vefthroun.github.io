@@ -1,0 +1,24 @@
+I"�<p>Nemendur geta hlaðið upp verkefnum (<em>upload files</em>) beint í verkefnamöppurnar en það er skynsamlegt að nota þær lausnir sem GIT og Github bjóða upp á.</p>
+
+<p>Til að vinna skipulega í verkefnum þarf að sækja áfangageymsluna af Github. Við tökum klón (<em>clone</em>) spegilmynd af áfangageymslunni yfir á okkar tölvu og vinnum öll verkefnin staðbundið (<em>local</em>).  Til þess er best að nota GIT.</p>
+
+<ul>
+  <li>Við speglum áfangageymsluna <strong>“Clone Repository”</strong> og vinnum með gögnin í geymslunni staðbundið (local)
+    <ol>
+      <li>Smellið á Code hnappinn og afritið kóðann sem birtist í textareitinum <br />
+<img src="../assets/images/repo-clone.jpg" alt="Repository Clone" /><br /></li>
+      <li>Opnið <strong>Git Bash</strong> og veljið hentugan stað til að setja áfangamöppuna í tölvunni <br />
+<code class="highlighter-rouge">$ cd ~/desktop/</code> <br />Skrifið <em>git clone</em> og límið [Shift]+[insert] HTTPS kóðann inn <br /><code class="highlighter-rouge">$ git clone https://github.com/21VA1/21VA1-geymsla.git </code></li>
+      <li>Síðan er hægt að fara vinna í verkefnum áfangans. Munið að vista verkefnin reglulega í Git, <code class="highlighter-rouge">$ git add . </code></li>
+      <li>Verkefnum er síðan skilað með því að skrá <code class="highlighter-rouge">$ git commit -m 'skilaboð'</code><br /> og <code class="highlighter-rouge">$ git push</code> í  <em>Git bash</em></li>
+      <li>Git er innbyggt í <em>Visual Studio Code</em> forritið, þar notum við það í allri verkefnavinnu áfangans.</li>
+    </ol>
+  </li>
+  <li>Þegar yngri útgáfa skjals er í víðværri (<em>remote</em>) geymslu þá þarf að sækja það með skipuninni <code class="highlighter-rouge">$ git pull</code></li>
+  <li>Ef maður er ekki viss hver staðan er þá er tjékkað á stöðunni með <code class="highlighter-rouge">$ git status</code>.</li>
+  <li>
+    <p>Það er hægt að skrifa kóða beint í skjöl í Github geymslum, munið að vista skráninguna með <em>“Commit”</em></p>
+  </li>
+  <li>Skjáfyrirlestur á Youtube: <a href="https://youtu.be/PPwpF6yTX3Y">Uppsetning <em>“local”</em> áfangageymslu</a></li>
+</ul>
+:ET

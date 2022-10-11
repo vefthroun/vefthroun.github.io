@@ -1,0 +1,39 @@
+I"�<h3 id="git-install">Git <em>install</em></h3>
+
+<ul>
+  <li>Á <em>Linux</em> og <em>Mackintosh</em>
+    <ul>
+      <li>Til að nota GIT er hægt að opna <strong>Terminal</strong> sem er innbyggt skipanalínuforrit</li>
+      <li>Athugaðu hvort Git sé til með því að skrifa <code class="highlighter-rouge">$ git --version</code> í <em>“terminalinn”</em></li>
+    </ul>
+  </li>
+  <li>
+    <p>Á <em>Windows 10</em> notum við forritið <a href="https://git-scm.com/"><strong>Git Bash</strong></a><br />
+<em>Git Bash</em> er skipanalínuforrit  sem þýðir Linux skipanir yfir í Windows Dos skipanir, það er mikil hagræðing að geta notað sömu skipanir á mismunandi stýrikerfum.</p>
+  </li>
+  <li>Opnið forritið Git Bash eða Terminal
+    <ul>
+      <li>Skráðu þig sem <strong>"–global"</strong> notanda <br />
+<code class="highlighter-rouge">$ git config --global user.name "Johndoe" </code> <br />
+(Johndoe = þitt <strong>“notandanafn”</strong> á Github, <em>með gæsalöppum</em>)<br />
+<code class="highlighter-rouge">$ git config --global user.email johndoe@example.com </code> <br />
+(Þitt tölvupóstfang sem þú notar á Github)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="mikilvægar-stillingar-í-git-bash--windows-10-">Mikilvægar stillingar í Git Bash ( <strong>Windows 10</strong> )</h3>
+
+<ol>
+  <li>Settu <a href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a> forritið fyrst inn á tölvuna þína.</li>
+  <li>Síðan setur þú <a href="https://git-scm.com/"><strong>Git Bash</strong></a> inn á vélina</li>
+</ol>
+
+<p>Samþykktu allar tillögur sem birtast þegar Git forritið er innsett</p>
+
+<p>Veldu <strong>Visual Studio Code</strong> sem "<em>default editor</em>"</p>
+
+<p><img src="git-install.png" alt="Git default VSC" /></p>
+
+<p><a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup</a></p>
+:ET

@@ -1,0 +1,67 @@
+/*========================================
+  Register
+  ======================================== */
+
+.register-group {
+  margin-bottom: 1em;
+}
+.register-group fieldset {
+  border: 1px solid #aaa;
+  border-radius: .5em;
+  padding: 1em;
+  margin: 1em 0;
+}
+.register-group label {
+  color: #688;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #444;
+  display: inline; /* block; */
+  margin: 5px 0 1em 0;
+  padding: 5px 8px;
+}
+/*.register-group, ath input type*/
+
+.register-group select {
+  height: 2em;
+  width: 5em;
+}
+.register-group input[type=text],
+.register-group input[type=email],
+.register-group textarea {
+  width: 100%;
+}
+.register-group textarea {
+  font-family: monospace;
+}
+.register-group input[type=submit] {
+
+  background-color:#700; 
+  background: linear-gradient(#273827, #507150 90%, #273827);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: .5em 1em;
+  margin:  0 0 0 5em;
+  border-radius: .3em;
+}
+.register-group input[type=submit]:hover,
+.register-group input[type=submit]:active  {
+  background: linear-gradient(to bottom, #667, #330);
+  color:#faa;
+}
+@media screen and (min-width: 60em) { 
+    .register-group fieldset {
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    padding: 1em 2em;
+    margin: 1em 0;
+  }
+}

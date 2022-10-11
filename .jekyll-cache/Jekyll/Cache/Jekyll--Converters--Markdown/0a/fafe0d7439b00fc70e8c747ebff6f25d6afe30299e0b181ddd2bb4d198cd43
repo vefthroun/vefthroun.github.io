@@ -1,0 +1,101 @@
+I"�<h4 id="undanfari--vef2vh05bu">undanfari  VEF2VH05BU</h4>
+
+<h3 id="vef2vf05cu">VEF2VF05CU</h3>
+
+<p>Í áfanganum eru grunnatriði vefforritunar kynnt. Farið er í miðlara/biðlara uppbyggingu vefsíðna, samskipti þeirra og hlutverk hvers hluta. Nemendur vinna að smíði vefja með miðlaramáli. Lögð er áhersla á málfræði og endurnýtni á kóða í gerð vefja.</p>
+
+<h2 id="kennslufyrirkomulag">Kennslufyrirkomulag</h2>
+<p>Kennslan byggist á fyrirlestrum í upphafi kennslustundar og síðan eru verkefni unnin samkvæmt verklýsingum. <br />Verkefnalýsingar birtast Innu.</p>
+
+<h3 id="námsefni">Námsefni</h3>
+<ul>
+  <li><a href="http://flask.pocoo.org/">Flask - Python Web Framework</a></li>
+  <li><a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku  - Development Server</a></li>
+  <li><a href="bjargir.md">Bjargir</a></li>
+</ul>
+
+<h3 id="verkefnayfirlit">Verkefnayfirlit</h3>
+<ol>
+  <li>Grunnatriði í tölvusamskiptum
+    <ul>
+      <li>HTTP staðalinn, request / response</li>
+      <li>Vika 2.</li>
+    </ul>
+  </li>
+  <li>Flask vefforritun
+    <ul>
+      <li>Beining (static routing).</li>
+      <li>Beining (dynamic routing).</li>
+      <li>Vika 3 og 4</li>
+    </ul>
+  </li>
+  <li>Templates
+    <ul>
+      <li>Vika 5</li>
+    </ul>
+  </li>
+  <li>JSON/API, miðannarverkefni
+    <ul>
+      <li>Vika 6 - 8</li>
+      <li>Vetrarfrí 22.02. til 26.02</li>
+    </ul>
+  </li>
+  <li>Form
+    <ul>
+      <li>Vika 9 - 10</li>
+    </ul>
+  </li>
+  <li>Vaframinni
+    <ul>
+      <li>Vika 11</li>
+    </ul>
+  </li>
+  <li>Gagnavinnsla
+    <ul>
+      <li>Vika 12 - 14</li>
+    </ul>
+  </li>
+  <li>Lokaverkefni
+    <ul>
+      <li>Vika 15-19</li>
+      <li><em>Páskafrí</em> í 16. og 17. viku</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="ýtarlegar-verkefnalýsingar-eru-í-innu">Ýtarlegar verkefnalýsingar eru í INNU</h4>
+<ul>
+  <li>Öll verkefni** eiga að vera vistuð í <em>Github</em> geymslu**</li>
+  <li>Vefþróunarsvæði á Heroku á að hýsa 5 nýlegustu verkefnin</li>
+  <li>Nemendur eiga að skila tenglum (<em>link</em>) í <strong>INNU</strong> sem vísa á Github geymslu og hýsingu viðkomandi verkefnis.</li>
+  <li>Yfirferð verkefna miðast við stöðu verkefna á skiladegi</li>
+</ul>
+
+<h1 id="vefgrunnur">VEFGRUNNUR</h1>
+
+<p>Í áfanganum VEFÞ1VG05 <span class="icon-happy"></span> er farið í grunnatriði vefsíðuhönnunar og megináhersla lögð á ívafsmál (e. HTML) og stílsíður (e. CSS). Hver þessara þátta er tekinn sérstaklega fyrir og sýnt hvernig samspil þeirra stuðlar að vandaðri uppsetningu og framsetningu vefsíðna. Skoðuð er þróunarsaga vefsins, hlutverk vafrans (<em>Internet browser</em>) og virkni hans.</p>
+
+<h3 id="kennslufyrirkomulag-1">Kennslufyrirkomulag</h3>
+
+<p>Kennslan byggist á fyrirlestrum í upphafi kennslustundar og síðan eru verkefni unnin samkvæmt verklýsingum sem eru í INNU/VEF1VG05. Námsáætlun áfangans er þar einnig.</p>
+
+<h3 id="skráning-á-github">Skráning á Github</h3>
+
+<ul>
+  <li>Nemendur stofna reikning (<em>account</em>) á <a href="https://github.com/">GitHub</a>
+    <ul>
+      <li>Við skráninguna geta nemendur notað <a href="https://tskoli.is/tolvuthjonusta/skolanetfang/">tölvupóstfang</a> sem Tækniskólinn úthlutar hverjum nemanda.</li>
+      <li>Ef skólanetfangið er notað þá er hægt að fá aðgang að <a href="https://education.github.com/pack">Github Education</a></li>
+      <li>Einnig geta nemendur notað <a href="https://tskoli.is/tolvuthjonusta/office-og-adobe/">Office 365</a> hugbúnaðinn sem Tækniskólinn býður uppá.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="verkefnaskil">Verkefnaskil</h4>
+
+<ol>
+  <li>Öll verkefni sem lögð eru fyrir í áfanganum <strong>á að skila í geymslu (<em>Repository</em>) á eigin Github reikning</strong></li>
+  <li>Öllum verkefnum á að skila samkvæmt verklýsingum sem lagðar eru fyrir í Innu</li>
+  <li>Tenglum (<em>link</em>) á verkefnin er skilað í “<em>Athugasemd til kennara</em>” í Innu</li>
+</ol>
+:ET

@@ -1,0 +1,94 @@
+$baseColor: #ccdbcc;
+$baseColor2: #7ef;
+@mixin gradient{
+  background-image: linear-gradient(to top, $baseColor, lighten($baseColor, 30%));
+}
+@mixin gradientR{
+  background-image: linear-gradient(to bottom, $baseColor, lighten($baseColor, 30%));
+}
+@mixin transLinks {
+  -webkit-transition: all .5s; /* Safari 3.1 to 6.0 */
+      transition: all .5s;
+} 
+body {
+    background: linear-gradient(to bottom, $baseColor, darken($baseColor, 40%));
+    background-size:100%;
+}
+// Nesting & mixin
+header {
+  @include gradient;
+  h1 {
+    color: darken($baseColor, 45%);
+    font-weight: normal;
+    margin: .5em 0 1em 0;
+    text-align: center;
+  }
+  span {
+    font-style: italic;
+  }
+}
+nav {
+  margin: 0;
+  background-color: darken($baseColor, 45%); 
+  a {
+    padding: .5em .7em;
+    background-color: $baseColor;  
+    color: #fff;
+    text-decoration: none;
+    @include transLinks;
+    &:hover {
+      background-color: darken($baseColor, 15%);  
+    }
+  }
+}
+article {
+  text-align: justify;
+  @include gradientR;
+}
+footer {
+  text-align: center;
+  @include gradient;
+  h3 {
+    color: darken($baseColor, 45%);
+  }
+}
+.vinstri,
+.haegri {
+    @include gradient;
+}
+article h2,
+article h4,
+aside h3,
+footer h4 {
+  color: darken($baseColor, 45%);
+}
+// basic stuff
+header,
+footer,
+article,
+aside {
+  padding: 1em;
+}
+header h1 {
+  line-height: 1.1;
+}
+article h2 {
+  margin: .7em 0 .8em 0;
+}
+article h4 {
+  margin:1em 0;
+}
+article p {
+  text-align: justify;
+}
+article,
+aside,
+footer {
+  line-height: 1.4;
+}
+article h2 {
+  margin-bottom: -.2em;
+}
+article ul li {
+  list-style-type: none;
+}

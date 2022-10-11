@@ -1,0 +1,117 @@
+/* ==================================== 
+  Our Modal Window styles
+===================================== */
+
+ /* button (inspired by thoughtbot.com) */
+.modal .mod_trigger {
+  background-color: #ee432e;
+  background-image: -webkit-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+  border: 1px solid #951100;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+  color: #fff;
+  font: bold 1.2em/1 "helvetica neue", helvetica, arial, sans-serif;
+  padding: .4em 2em;
+  text-align: center;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8);
+  width: 300px;  
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.55s;
+}
+.modal .mod_trigger:hover,
+.modal .mod_trigger:active {
+  background-color: #f37873;
+  background-image: -webkit-linear-gradient(bottom, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+  background-image: linear-gradient(bottom, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+  cursor: pointer; 
+}
+.modal__overlay {             /*bakgrunnur*/
+  background: rgba(0,0,0,.85);
+  position: fixed;
+  bottom: 0;                  /*fyllir út í skjáinn*/
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  text-shadow: none;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 0;
+
+  display: flex;              /*modal__wrap boxið birtist í miðju vafrans*/
+  justify-content: center;
+  align-items: center;
+}
+.modal__wrap {                
+  position: relative;
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 37.5em;
+  width: 80%;
+  border: 1px solid #f00;
+  background-color: #eee;
+  border-radius: .4em;
+  box-shadow: inset 0 0 3em #999;
+  color: #444;
+}
+
+.modal__wrap .mod_circle {          /* x hnappurinn í hægra horni */
+  background: #FFD300;
+  border: 1px solid #f00;
+  border-radius: 50%;
+  color: #ff0000;
+  cursor: pointer;
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  width: 2em;
+  height: 2em;
+  line-height: 1.2;
+  padding: .4em;
+}
+.modal__wrap h2 {
+  color: #900;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+.modal__wrap p {
+  color: #444;
+  text-align: justify;
+}
+.modal #modal__trigger:focus ~ .mod_trigger {
+  transform: scale(0.97);
+}
+
+.modal #modal__trigger {
+  display: none;
+/*  position: absolute;
+  top: -1000px;*/
+}
+
+.modal #modal__trigger:checked ~ .modal__overlay {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 1000;
+}
+
+/*******RWD******/
+@media (min-width: 37.5em) {
+  .modal {
+    padding: 1.5em;
+  }
+}
+@media screen and (min-width: 60em) {
+  .modal .mod_trigger {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 80em) {
+  .modal__wrap {
+    padding: 1.75em;
+  }
+}
+
+    

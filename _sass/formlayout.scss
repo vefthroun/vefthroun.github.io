@@ -1,0 +1,70 @@
+/*========================================
+  Register
+  ======================================== */
+  .register form {
+    margin-bottom: 1em;
+  }
+.register legend {
+  font-weight:bold;
+}
+.register fieldset {
+  border: 1px solid #aaa;
+  border-radius: .5em;
+  padding: 1em;
+  margin: 1em 0;
+}
+.register label {
+  color: #688;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register input,
+.register select,
+.register textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #444;
+  display: inline; /* block; */
+  margin: 5px 0 1em 0;
+  padding: 5px 8px;
+}
+/*.register-group, ath input type*/
+
+.register select {
+  height: 2em;
+  width: 5em;
+}
+.register input[type=text],
+.register input[type=tel],
+.register input[type=email],
+.register textarea {
+  width: 100%;
+}
+.register textarea {
+  font-family: monospace;
+}
+.register input[type=submit] {
+
+  background-color:#700; 
+  background: linear-gradient(#273827, #507150 90%, #273827);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: .5em 1em;
+  margin:  0 0 0 5em;
+  border-radius: .3em;
+}
+.register input[type=submit]:hover,
+.register input[type=submit]:active  {
+  background: linear-gradient(to bottom, #667, #330);
+  color:#bbb;
+}
+@media screen and (min-width: 48em) {   
+  .register form {
+    max-width: 30em;
+  }
+  .register fieldset {
+    padding: 1em 2em;
+  }
+}

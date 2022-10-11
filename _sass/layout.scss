@@ -1,0 +1,176 @@
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ====== GRID Area ====== */
+
+header {
+  grid-area: header;
+}
+main {
+  grid-area: main; 
+}
+footer {
+  grid-area: footer;
+}
+
+/* í main */
+
+article {
+  grid-area: article; 
+}
+aside {
+  grid-area: aside; 
+}
+.vinstri {
+  grid-area: vinstri;
+}
+.haegri {
+  grid-area: haegri;
+}
+.midja {
+  grid-area: midja;
+}
+/*  ====== GRID Template Areas ===== */
+.wrapper {
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  margin: 0 1em 3em 1em;
+}
+
+main {
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas:
+  "article"
+  "aside"
+}
+
+.headwrapper {
+  position:fixed ;
+  top:0;
+  left:0;
+  height: 3.5em;
+  width:102%;
+  background-color: #fff; 
+  border: 0;   
+  box-shadow: 0 0 1em #ddd ;
+}             /*ath!*/
+.headmenu {
+  width:100%;
+  padding: 0 1em;
+}             /*ath!*/
+// base
+header h1 {
+  font-family: 'Ubuntu', sans-serif; 
+  font-weight: 300;
+  font-size: 2em;
+  text-align: left;
+  margin: 2.5em .5em .2em .5em;
+}
+
+.midja h5, .midja small {
+  display: none;
+}
+/*  ========================================
+  Viðmið - breakpoints 37.5em = 600px + //*ATHUGIÐ! slaufusvigin { má ekki byrja í næstu línu.
+  ========================================*/
+
+@media screen and (min-width: 37.5em) {
+  header h1 {
+    font-size: 3em;
+    text-align: center;
+    margin:1.5em 0 .2em 0;
+  }
+  main {
+    /* skipti yfir í 2 dálka */
+    grid-template-areas:
+      "aside article";
+    grid-template-columns: 1fr 2fr;
+  }
+  article {
+    padding: .5em 1em;
+  }
+  aside {
+    border-right: 1px solid orangered;
+    padding-right:1em;
+  }
+  .asidemenu {
+    margin-top:0;
+  }
+  .mainarticle {
+    margin-top: -2em;
+  }
+}
+/* ========================================
+  Viðmið - breakpoints 48em = 760px +
+  ======================================== */
+
+@media screen and (min-width: 48em) {   
+
+  .midja h5, .midja small {
+    display: block;
+    margin-top: 0;
+  }
+  main {
+    grid-template-areas:
+    "aside article";
+    grid-template-columns: 1fr 3fr;
+  }
+  article {
+    padding: .5em 2em;
+  }
+  
+  .mtop-2em {
+    margin-top:-1.3em;
+  }
+}
+/* ========================================
+  Viðmið - breakpoints 60em = 960px +
+  ======================================== */
+
+@media screen and (min-width: 60em) { 
+  .wrapper { 
+    max-width: 60em; 
+    margin: 0 auto;
+  }
+  .headmenu {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 60em;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .topnav {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+  }
+  header h1 {
+    font-size: 4em;
+    text-align: center;
+    margin: 1.5em 0 .5em 0;
+  }
+}
+/* ath of breiðir dálkar = erfitt að fylgja línum í lestri
+  Viðmið - breakpoints 80em = 1280px +
+  ======================================== 
+
+@media screen and (min-width: 80em) { 
+  .wrapper { 
+    max-width: 80em;
+    margin: 0 auto;
+  }
+  main {
+    grid-template-areas:
+    "aside article";
+    grid-template-columns: 1fr 4fr;
+  }
+}
+*/

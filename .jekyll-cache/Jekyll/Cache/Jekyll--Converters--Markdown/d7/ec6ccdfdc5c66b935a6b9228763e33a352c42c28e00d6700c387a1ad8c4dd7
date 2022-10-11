@@ -1,0 +1,33 @@
+I"�<ul>
+  <li><strong>Verkefnalýsing er í INNU</strong></li>
+  <li>Öll verkefni áfangans eru unnin í áfangageymslu <em>Github Classroom</em></li>
+</ul>
+
+<h4 id="cookies--sessions">Cookies &amp; Sessions</h4>
+<ul>
+  <li><a href="http://flask.pocoo.org/docs/1.0/quickstart/#sessions">Quickstart #sessions</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_cookies.htm">Tutorialspoint - cookies</a></li>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_sessions.htm">Tutorialspoint - Sessions</a></li>
+  <li><a href="https://www.youtube.com/watch?v=T1ZVyY1LWOg">Video - An Introduction to Sessions in Flask</a></li>
+  <li><a href="https://www.youtube.com/watch?v=eBwhBrNbrNI">Video - Login Page in Flask Using Sessions</a></li>
+  <li><a href="https://stackoverflow.com/questions/22463939/demystify-flask-app-secret-key">Demystify Flask app secret key</a></li>
+  <li><a href="https://pythonspot.com/login-authentication-with-flask/">Login Authentication With Flask</a></li>
+</ul>
+
+<h4 id="form-data">Form Data</h4>
+
+<ul>
+  <li><a href="https://www.tutorialspoint.com/flask/flask_sending_form_data_to_template.htm">Sendig form data to template</a></li>
+  <li><a href="https://www.youtube.com/watch?v=KW_ItlO5kR4">Basic form requests</a></li>
+</ul>
+
+<h4 id="wtform">WTForm</h4>
+
+<ul>
+  <li><a href="https://wtforms.readthedocs.io/en/stable/crash_course.html">WTForms Crash Course</a></li>
+  <li><a href="https://www.youtube.com/watch?v=UIJKdCIEXUQ">Forms and User Input</a></li>
+  <li><a href="https://www.youtube.com/watch?v=eu0tg4vgFr4">Form YTB</a></li>
+  <li><a href="http://exploreflask.com/en/latest/forms.html">Explore Flask - form</a></li>
+</ul>
+
+:ET

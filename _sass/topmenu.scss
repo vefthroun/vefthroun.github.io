@@ -1,0 +1,120 @@
+/* =======================================
+  Efnisyfirlit - mobile
+  ======================================== */
+$baseColor: #0B3E7A;
+
+/* EKKI stíla input og label tögin - búið til klasa */
+.menuInput {
+  display: none;  /*menu-butt input er aldrei sýnilegt*/
+}
+.menuLabel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 2.5em;
+  height: 1.6em;
+  color: $baseColor;
+  font-size: 1.5em;
+  text-align: left;
+  padding: .5em;
+  transition: all .4s ease;
+  z-index: 999;
+}
+.menuInput:checked + .menuLabel {
+  transform: translate(-23px, -3px) rotate(-90deg) ; /* Standard syntax */
+  transition: all .5s ease;
+}
+.menuInput:checked ~ .topmenu {
+  position: fixed;
+  top:3em;
+  right: 0;
+  z-index: 980;
+  transition: all .5s ease;
+}
+.topmenu {
+  display: block;
+  position: fixed;
+  top: 3em;
+  right: -15em; //  ath! er fyrir utan vafrann;
+  z-index: 980;
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+  transition: all .5s ease;
+
+  background-color: rgba(255,255,255, .9);
+}
+
+.topmenu a {
+  display: block;     
+  color: #0B3E7A;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1em 2em 0 2em;
+  margin: 0;
+  letter-spacing: 2px;
+  &:last-child {
+    padding: 1em 2em;
+  }
+}
+.logo a{
+  display: block;     
+  color: $baseColor;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em 0 ;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
+
+.topmenu a:hover,
+.topmenu a:active,
+.topmenu a:focus,
+.logo a:hover {
+//  background-color: #f5af60;
+  color: orangered;
+  margin-bottom: 0;
+//  transition: all .3s ease;
+} 
+.topmenu a.current {
+  color: orangered;
+}
+.logo {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+}
+.logo img{
+  width: 2.5em;
+  height: 3.5em;
+}
+.logo p {
+  letter-spacing: 3.5px;
+  color: $baseColor;
+}
+
+@media screen and (min-width:37.5em) {
+  .topmenu .verklink {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 60em) {
+
+  .topmenu {
+    display: flex;
+    flex-flow: row;   
+    justify-content: flex-end;  /*ath!*/
+    position: relative;
+    top:0;
+    right:0;
+    transition: none;   /*ath! verður að taka út*/
+  }
+  /* label - menu tekið út */  
+  .menuLabel {
+    display: none;
+  }
+}
+

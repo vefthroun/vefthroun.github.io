@@ -1,0 +1,22 @@
+I"�<ul>
+  <li><strong>Verkefnalýsing er í INNU</strong></li>
+  <li>Öll verkefni áfangans eru unnin í áfangageymslu <em>Github Classroom</em></li>
+</ul>
+
+<h3 id="jinja-templates">Jinja Templates</h3>
+
+<ul>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/templates/#base-template">Templates</a></li>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/extensions/">Extensions</a></li>
+</ul>
+
+<h4 id="jinja-filters">Jinja Filters</h4>
+
+<ul>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/templates/#builtin-filters">Builtin Filters</a></li>
+  <li><a href="https://www.webforefront.com/django/usebuiltinjinjafilters.html">Filters</a></li>
+  <li><a href="http://jinja.pocoo.org/docs/2.10/api/#custom-filters">Custom Filters</a></li>
+  <li><a href="https://www.youtube.com/watch?v=H7StWE1ecrU">Video</a></li>
+  <li><a href="https://riptutorial.com/flask/example/4779/format-datetime-in-a-jinja2-template">Datetime</a></li>
+</ul>
+:ET

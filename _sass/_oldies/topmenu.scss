@@ -1,0 +1,110 @@
+/* =======================================
+  Efnisyfirlit - mobile
+  ======================================== */
+.buttInput,       /* EKKI stíla input og label tögin - búið til klasa */
+.menuInput {
+  display: none;  /*menu-butt input er aldrei sýnilegt*/
+}
+.menuLabel {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  border: 2px outset #999;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  text-align: center;
+  padding:.175em .4em;
+  background-color: darken($baseColor, 45%);
+  transition: all .4s ease;
+  z-index: 999;
+}
+.menuInput:checked + .menuLabel {
+  box-shadow: inset 0 .2em .2em rgba(0, 0, 0, 0.25);
+  border: 2px inset #999;
+  color: #fff;
+}
+.menuInput:checked ~ .topmenu {
+  position: fixed;
+  bottom:2.4em;
+  right: 0;
+  z-index: 990;
+  transition: all .5s ease;
+}
+.topmenu {
+  display: block;
+  position: fixed;
+  bottom: -15em;
+  right: 0; 
+  width: 100%;
+  z-index: 990;
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+  transition: all .5s ease;
+}
+.topmenu li {
+  border: 0;
+  border-bottom: 1px solid lime; 
+  padding: 0;
+  margin:0;
+}
+.topmenu a {
+  display: block;     
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: .4em 2em;
+  background-color: darken($baseColor, 50%);
+}
+.topmenu a:hover,
+.topmenu a:active,
+.topmenu a:focus {
+  background-color: lime;
+  transition: all 1s ease;
+} 
+
+
+  /* ========================================
+    Efnisyfirlit í 48em (768px) +
+    ======================================== */
+
+@media screen and (min-width: 48em) {
+
+  .topmenu {
+    display: flex;
+    flex-flow: row;   
+    justify-content: center;  /*ath!*/
+    position:relative;
+    top: 0; 
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+  }
+  .topmenu li {
+    border: 0;
+    border-left: 1px solid lime; 
+    padding: 0;
+  }
+  .topmenu li:last-child {
+    border-right: 1px solid lime; 
+  }
+  .topmenu a {
+    display: block;     /*ath!*/
+    color: white;
+    text-decoration: none;
+    padding: .4em 2em; 
+  }
+  .topmenu a:hover,
+  .topmenu a:active {
+    background-color: lime;
+    transition: all 1s ease;
+  }
+  /* label - menu tekið út */
+  
+  .menuLabel {
+    display: none;
+  }
+}
+

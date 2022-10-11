@@ -1,0 +1,184 @@
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+
+/* ====== GRID Area ====== */
+
+.topnav {
+  grid-area: topnav; 
+}
+header {
+  grid-area: header;
+}
+.content {
+  grid-area: content; /* Content area þarf ekki að nefna með sama heiti og tagið-klasinn */
+}
+footer {
+  grid-area: footer;
+}
+
+/* í content */
+
+.midja {
+  grid-area: midja; 
+}
+.vinstri {
+  grid-area: vinstri;
+}
+.haegri {
+  grid-area: haegri; 
+}
+/*  ====== GRID Template Areas ===== */
+body {
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer"
+    "topnav";
+}
+
+.content {
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas:
+    "midja"
+    "haegri"  
+    "vinstri"
+}
+
+body {
+  font-family: "Open sans", sans-serif; 
+}
+/* =======================================
+   Myndir <img> alltaf í 100% stærð munið 
+   að vinna og þjappa myndir í photoshop ! 
+  ======================================== */
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  display: block; /* losna við inline "whitespace" */
+}
+
+figure {
+  margin:0;   /* ath! í normalize er sjálsfgefið margin 40px :( */
+  border: 1px solid orange;
+}
+.myndabox {
+  width: 162px; /* ath! */
+}
+
+/*  ========================================
+  Viðmið - breakpoints 30em = 480px + 
+  ========================================*/
+
+@media screen and (min-width: 30em) { //*ATHUGIÐ! slaufusvigin { má ekki byrja í næstu línu.*/
+
+  .myndabox {
+    display: grid;  /* ath! */
+    grid-template-columns: 100% 100%;
+  }
+}
+
+/*  ========================================
+  Viðmið - breakpoints 37.5em = 600px + 
+  ========================================*/
+
+@media screen and (min-width: 37.5em) {
+
+  .content {
+    /* skipti yfir í 2 dálka */
+    grid-template-areas:
+      "midja vinstri"
+      "midja haegri";
+
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+/* ========================================
+  Viðmið - breakpoints 48em = 760px +
+  ======================================== */
+
+@media screen and (min-width: 48em) {   
+  body { 
+    /*færi topnav efst á síðu */
+    grid-template-areas:
+      "topnav"  
+      "header"
+      "content"
+      "footer";
+  }
+  .topnav label {
+    display: none;  /* ath! label ekki sýnilegt */
+  }
+  /* ATH! það er ekki skynsamlegt að nota grid í efnisyfirlit ~ fjöldi tengla getur breyst */
+  .topmenu {
+    display: flex;  
+    flex-flow: row; /* ath!  */
+    justify-content: center;
+
+    position: relative;   /* var fixed */
+    top: 0;              /* var bottom: -10em; */
+  }
+  .topmenu li {  
+    border: 0;
+    border-left: 1px solid lime; 
+    padding: 0;
+  }
+  .topmenu li:last-child {
+    border-right: 1px solid lime; 
+  }
+}
+
+/* ========================================
+  Viðmið - breakpoints 60em = 960px +
+  ======================================== */
+
+@media screen and (min-width: 60em) { 
+  body { 
+    max-width: 58em; 
+    margin: 0 auto;
+  }
+  header h1 {
+    font-size: 3em;
+  }
+  .content {
+    /* skipti yfir í 3 dálka */
+    grid-template-areas:
+      "midja vinstri haegri";
+
+    grid-template-columns: 3fr 1fr  1fr;
+  }
+  .myndabox {
+    grid-template-columns: repeat(4, 72%);
+  }
+  .sMedia {
+    display: flex;
+    flex-flow: column;
+    position: fixed;   /* alltaf á sama stað í vafranum */
+    top: 4em;
+    left: 0;
+    height: 12em;
+    width: 3em;
+  }
+}
+
+/* ========================================
+  Viðmið - breakpoints 80em = 1280px +
+  ======================================== */
+
+@media screen and (min-width: 80em) { 
+  body { 
+    max-width: 77em;
+    margin: 0 auto;
+  }
+    .myndabox {
+    max-width: 100%;
+    grid-template-columns: repeat(4, 100%);
+  }
+}
